@@ -1,0 +1,69 @@
+body {
+  font-family: "Caveat Brush", cursive;
+  font-family: "Comfortaa", cursive;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  background-color: rgb(19, 39, 75);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-top: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content p {
+  width: 80%;
+}
+
+.top-line {
+  position: absolute;
+  height: 7px;
+  border: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.title {
+  position: relative;
+}
+
+.title h2 {
+  z-index: 3;
+}
+
+.bg-title {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  top: 50%;
+  z-index: -99;
+}
